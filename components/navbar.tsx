@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SignInButton, SignOutButton } from "./buttons";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,8 @@ const Navbar = () => {
         </Link>
         <h3>Income</h3>
         <h3>Wishlist</h3>
+        <SignInButton />
+        <SignOutButton />
       </div>
     </div>
   );
