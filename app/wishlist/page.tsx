@@ -1,3 +1,4 @@
+import WishlistCard from "@/components/wishlist-card";
 import { getServerSession } from "next-auth";
 
 const Wishlist = async () => {
@@ -13,8 +14,8 @@ const Wishlist = async () => {
         <button className='bg-green-400 text-black p-2 rounded-md'>New product</button>
       </div>
 
-      <div className="">
-
+      <div className="m-5">
+        <WishlistCard />
       </div>
     </div>
   );

@@ -11,10 +11,18 @@ const Expenses = async () => {
   return (
     <div className="">
       <div className="flex m-5 ">
-        <button className='bg-green-400 text-black p-2 rounded-md'>Create New Expense</button>
-        <div className="ml-auto flex space-x-5">
-          <h1>Total Expenses: </h1>
-          <h1>Monthly Expenses: </h1>
+        <button className="bg-green-400 text-black p-2 rounded-md">
+          Create New Expense
+        </button>
+        <div className="ml-auto flex space-x-5 items-center">
+          <select name="currency" className="text-black h-[35px] rounded-md">
+            <option value="soles">Soles</option>
+            <option value="usd">Usd</option>
+            <option value="cad">Cad</option>
+          </select>
+
+          <h1>Total Expenses: 100</h1>
+          <h1>Monthly Expenses: 100</h1>
         </div>
       </div>
 

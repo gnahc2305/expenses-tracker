@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-    serverActions: true,
-  },
   images: {
     remotePatterns: [
       {
@@ -13,7 +9,7 @@ const nextConfig = {
         pathname: "/u/**",
       },
     ],
-    domains: ["lh3.googleusercontent.com"],
+    // domains: ["lh3.googleusercontent.com"],
   },
 };
 
