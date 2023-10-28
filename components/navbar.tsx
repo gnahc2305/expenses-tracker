@@ -13,7 +13,9 @@ const Navbar = () => {
           <h3>Expenses</h3>
         </Link>
         <h3>Income</h3>
+        <Link href='/wishlist'>
         <h3>Wishlist</h3>
+        </Link>
         <SignInButton />
         <SignOutButton />
       </div>
